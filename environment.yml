@@ -1,0 +1,16 @@
+name: sprecog
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Core stack
+  - python>=3.6
+  - numpy
+  - scipy
+  - matplotlib
+  - keras
+  - pandas
+  - pip
+
+  # Testing
+  - pytest
